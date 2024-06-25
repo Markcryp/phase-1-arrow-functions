@@ -18,3 +18,7 @@ const src = babelResult.code
 jsdom({
   html, src
 });
+describe("index.js", () => {
+  require('./helpers.js');
+  to.equal(a / b);
+});
